@@ -31,7 +31,6 @@
     },
     "visible_items": [
       "vias",
-      "footprint_text",
       "footprint_anchors",
       "ratsnest",
       "grid",
@@ -46,14 +45,11 @@
       "pads",
       "zones",
       "drc_warnings",
-      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -92,6 +88,7 @@
       9
     ],
     "col_widths": [
+<<<<<<< HEAD:TapType_IMUbreakout/TapType_IMUbreakout/TapType_IMUbreakout.kicad_prl
       186,
       171,
       112,
@@ -102,6 +99,18 @@
       83,
       112,
       112
+=======
+      162,
+      147,
+      98,
+      79,
+      91,
+      99,
+      91,
+      83,
+      91,
+      91
+>>>>>>> 7257fc6d3b589d90816abf73020fadd34b628c55:TayType_IMUbreakout/TapType_IMUbreakout/TapType_IMUbreakout.kicad_prl
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
