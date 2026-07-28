@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SW_MSK12C02") (type "KiCad") (uri "${KIPRJMOD}/MSK12C02/SW_MSK12C02.pretty") (options "") (descr ""))
+	(lib (name "MAX17048G_T10") (type "KiCad") (uri "${KIPRJMOD}/MAX17048G_T10/MAX17048G_T10.pretty") (options "") (descr ""))
+	(lib (name "BZX84C6V2L") (type "KiCad") (uri "${KIPRJMOD}/BZX84C6V2L/BZX84C6V2L.pretty") (options "") (descr ""))
+	(lib (name "USB4105-GF-A-120") (type "KiCad") (uri "${KIPRJMOD}/USB4105-GF-A-120/USB4105-GF-A-120.pretty") (options "") (descr ""))
+	(lib (name "SW_B3U-1000P") (type "KiCad") (uri "${KIPRJMOD}/B3U-1000P/SW_B3U-1000P.pretty") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/easyeda2kicad.pretty") (options "") (descr ""))
+	(lib (name "strain_relief") (type "KiCad") (uri "${KIPRJMOD}/strain_relief.pretty") (options "") (descr ""))
+)

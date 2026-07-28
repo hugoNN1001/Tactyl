@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MSK12C02") (type "KiCad") (uri "${KIPRJMOD}/MSK12C02/MSK12C02.kicad_sym") (options "") (descr ""))
+	(lib (name "MAX17048G_T10") (type "KiCad") (uri "${KIPRJMOD}/MAX17048G_T10/MAX17048G_T10.kicad_sym") (options "") (descr ""))
+)
