@@ -31,3 +31,8 @@ Tactyl consists of **four main subsystems** that work together to detect finger 
 **Haptic feedback.** A vibration motor, driven by a DRV2605L haptic driver, gives the user tactile confirmation of events such as successful chord entry or BLE connection/disconnection state.
 
 All subsystems share a common power architecture supplying the microcontroller, sensing, and feedback stages from a single regulated rail.
+
+## Photos
+![](./Photos/main_board_schem.png)
+![](./Photos/Tactyl_mainpcb_2imus(1).jpg)
+![](./Photos/main_board_pcb.png)
