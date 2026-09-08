@@ -20,6 +20,8 @@ The prototype was built incrementally:
 
 Tactyl consists of **four main subsystems** that work together to detect finger motion, identify deliberate taps, encode the recognized combination as a five-bit chord, convert the chord into a predefined character/command, and transmit the input wirelessly to a host device.
 
+![Tactyl subsystem block diagram](./Photos/TacTyl_subsystem_block_diagram.png)
+
 **Sensing layer.** Five IMUs are distributed across the glove, one per finger, each measuring acceleration to detect individual finger taps independently. Since all five IMUs share the same I²C address, the sensor network is interfaced to the microcontroller through a TCA9548A I²C multiplexer, which separates them into independent channels while retaining a common SDA/SCL bus.
 
 **Processing.** An ESP32-S3 microcontroller processes sensor inputs, runs tap detection, maintains the five-bit finger state register, performs chord recognition, and manages communication with the host device. Each completed chord is looked up in a table and converted into the corresponding character.
