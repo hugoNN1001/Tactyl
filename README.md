@@ -2,6 +2,11 @@
 
 Tactyl is a gesture-based typing interface that lets you type anywhere without a keyboard. It converts finger taps into digital characters, avoiding the fixed workspace and repetitive wrist/hand positioning that conventional keyboards require.
 
+## Photos
+![](./Photos/main_board_schem.png)
+![](./Photos/main_board_pcb.png)
+![](./Photos/Tactyl_mainpcb_2imus(1).jpg)
+
 ## How It Works
 
 Tactyl uses a **five-bit chorded input** scheme: each of the five fingers acts as one bit. Tapping different finger combinations produces unique 5-bit codes, which are mapped in software to characters and commands. This gives 32 possible combinations enough to cover the full alphabet.
@@ -32,7 +37,4 @@ Tactyl consists of **four main subsystems** that work together to detect finger 
 
 All subsystems share a common power architecture supplying the microcontroller, sensing, and feedback stages from a single regulated rail.
 
-## Photos
-![](./Photos/main_board_schem.png)
-![](./Photos/Tactyl_mainpcb_2imus(1).jpg)
-![](./Photos/main_board_pcb.png)
+
