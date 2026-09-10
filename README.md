@@ -4,7 +4,7 @@ Tactyl is a gesture-based typing interface that lets you type anywhere without a
 
 ## Photos
 ![](./Photos/main_board_schem.png)
-![](./Photos/main_board_pcb.png)
+<img src="./Photos/main_board_pcb.png" width="350"> 
 ![](./Photos/Tactyl_mainpcb_2imus(1).jpg)
 
 ## How It Works
